@@ -1,26 +1,40 @@
 # Gratonite Android
 
 [![Project](https://img.shields.io/badge/project-Gratonite-6d28d9)](https://github.com/CoodayeA/Gratonite)
-[![Platform](https://img.shields.io/badge/platform-Android-166534)](https://github.com/Gratonite-Labs/android)
-[![Docs](https://img.shields.io/badge/source%20of%20truth-main%20repo-2563eb)](https://github.com/CoodayeA/Gratonite)
+[![License](https://img.shields.io/badge/license-AGPLv3-blue)](https://github.com/CoodayeA/Gratonite/blob/main/LICENSE)
+[![Source of Truth](https://img.shields.io/badge/source%20of%20truth-monorepo-2563eb)](https://github.com/CoodayeA/Gratonite)
 
-Reserved for Android-focused Gratonite mobile work.
+Android-focused mobile work for [Gratonite](https://github.com/CoodayeA/Gratonite).
 
-This repository is intended to hold Android-specific work as a separate public surface from the broader mobile app.
+## About
 
-## Current Source Of Truth
+This pointer repo represents the Android side of Gratonite's mobile app. The mobile app is built with Expo and React Native, with source code in `apps/mobile/` in the main monorepo.
 
-The active mobile implementation currently lives in:
+All active development happens in the **[main monorepo](https://github.com/CoodayeA/Gratonite)**.
 
-- [CoodayeA/Gratonite](https://github.com/CoodayeA/Gratonite)
-- Canonical path: `apps/mobile`
+## Scope
 
-## Intended Scope
+- Android-specific configuration and native modules
+- Play Store metadata and release assets
+- Android build and signing workflows
+- Expo / React Native Android project files
 
-- Android-specific mobile work
-- Native Android configuration
-- Android release and packaging work
+## Canonical Path
 
-## Notes
+`apps/mobile/` in [CoodayeA/Gratonite](https://github.com/CoodayeA/Gratonite)
 
-This repo is intentionally minimal until Android-focused work is extracted from the main project.
+## Related Repos
+
+| Repo | Description |
+|------|-------------|
+| [CoodayeA/Gratonite](https://github.com/CoodayeA/Gratonite) | Main monorepo (source of truth) |
+| [Gratonite-Labs/mobile](https://github.com/Gratonite-Labs/mobile) | Mobile app (cross-platform) |
+| [Gratonite-Labs/ios](https://github.com/Gratonite-Labs/ios) | iOS-specific work |
+
+## Contributing
+
+See [CONTRIBUTING.md](https://github.com/CoodayeA/Gratonite/blob/main/CONTRIBUTING.md) in the main repo.
+
+## License
+
+[AGPLv3](https://github.com/CoodayeA/Gratonite/blob/main/LICENSE)
